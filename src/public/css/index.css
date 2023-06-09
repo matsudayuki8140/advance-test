@@ -1,0 +1,131 @@
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content-inner {
+    width: 100%;
+    padding: 0 50px;
+}
+
+.contact-table {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.contact-table__item {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact-table__header {
+    width: 25%;
+    vertical-align: top;
+}
+
+.contact-form__title {
+    text-align: left;
+    vertical-align: top;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.contact-form__title::after {
+    content: "※";
+    color: #f04;
+    font-weight: bold;
+}
+
+.contact-form__title-building {
+    text-align: left;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.contact-table__input {
+    width: 70%;
+    padding: 20px;
+}
+
+.contact-table__input-inner {
+    width: 100%;
+    display: flex;
+}
+
+.contact-table__left {
+    width: 50%;
+}
+
+.contact-table__right {
+    width: 50%;
+}
+
+.input__example {
+    padding-left: 15px;
+    color: #a9a9a9;
+}
+
+.contact-form__textbox {
+    width: 95%;
+    height: 50px;
+    font-size: 20px;
+    border: solid 1px #a9a9a9;
+    border-radius: 5px;
+}
+
+.contact-form__gender {
+    width: 30px;
+    height: 30px;
+    accent-color: #000;
+    margin: 10px 0 30px;
+}
+
+.contact-form__gender--label {
+    padding: 5px 10px 0;
+    margin: 10px 20px 0 0;
+}
+
+.postcode-sign {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 15px 0;
+}
+
+.contact-form__postcode {
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    border: solid 1px #a9a9a9;
+    border-radius: 5px;
+}
+
+.contact-form__opinion {
+    width: 95%;
+    height: 150px;
+    font-size: 20px;
+    border: solid 1px #a9a9a9;
+    border-radius: 5px;
+}
+
+/* エラーメッセージ */
+.error-message {
+    color: #f00;
+}
+
+/* button */
+.contact-form__button {
+    margin: 30px auto 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-form__button-confirm {
+    width: 150px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    background: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}

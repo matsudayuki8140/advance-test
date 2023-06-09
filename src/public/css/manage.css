@@ -1,0 +1,158 @@
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 検索フォーム */
+.search {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.search-inner {
+    border: solid 3px #000;
+    padding: 20px;
+}
+
+.search-form__row1,
+.search-form__row2,
+.search-form__row3,
+.search-form__row4 {
+    padding: 10px;
+}
+
+.search-form__title {
+    display: inline-block;
+    font-weight: bold;
+    width: 120px;
+}
+
+.search-form__input {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    border: solid 1px #a9a9a9;
+    border-radius: 5px;
+}
+
+.search-form__title-gender {
+    font-weight: bold;
+    padding: 0 30px;
+}
+
+.search-form__input-gender {
+    width: 30px;
+    height: 30px;
+    accent-color: #000;
+    position: relative;
+    top: 10px;
+}
+
+.search-form__input-label {
+    padding: 0 20px 0 10px;
+}
+
+.search-form__row4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.search-form__button {
+    width: 150px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    background: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/* ぺージ */
+
+.nav-inner {
+    width: 100%;
+    padding: 10px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-pagination a {
+    text-decoration: none;
+    color: #000;
+}
+
+.p-pagination__previous {
+    position: relative;
+    left: 6px;
+}
+
+.page-number {
+    border: solid 1px #ddd;
+    padding: 2px 5px;
+    color: #000;
+}
+
+.current {
+    color: #fff;
+    background-color: #000;
+}
+
+/* 一覧 */
+.contact-list {
+    width: 100%;
+    padding: 20px 20px 50px;
+}
+
+.contact-table {
+    width: 100%;
+}
+
+.contact-list__title {
+    border-bottom: solid 3px #000;
+    text-align: left;
+    padding: 0 10px 0 20px;
+}
+
+.contact-list__title th {
+    padding: 5px 10px;
+}
+
+.contact-list__row {
+    height: 40px;
+}
+
+.contact-list__row td {
+    padding: 5px 10px;
+    vertical-align: text-top;
+}
+
+.contact-list__item--opinion {
+    display: block;
+    width: 450px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.contact-list__item--opinion:hover {
+    white-space: normal;
+
+}
+
+.contact-list__item--delete {
+    text-align: center;
+}
+
+.delete-button__submit {
+    width: 80px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px;
+    background: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
