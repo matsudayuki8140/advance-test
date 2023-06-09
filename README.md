@@ -123,3 +123,7 @@ Contacts<br>
     <td></td>
     <td>レコード更新時刻</td>
   </tr>
+![Contact-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/177a2de5-763e-44a0-a8af-cbba88221627)
+![Confirm-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/24584486-6490-4746-add1-9fdaaf7ef5db)
+![Thanks-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/34156370-c1a9-4f09-b84b-fac057ca27be)
+![Manage-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/5138c116-3b2e-4e21-aefb-96e65ed9c21b)
