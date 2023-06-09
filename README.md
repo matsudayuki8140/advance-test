@@ -9,7 +9,6 @@
 ・問い合わせ情報をデータベースとして管理できるようにするため。<br>
 <br>
 ## 機能一覧<br>
-### １．問い合わせフォーム<br>
 #### 問い合わせ情報登録機能<br>
 ・問い合わせフォームに 名前、性別、メールアドレス、郵便番号、住所、（建物名、）ご意見 を入力する<br>
 ・確認ボタンを押すと内容確認ページに遷移し、入力した内容に間違いがないか確認する<br>
@@ -24,6 +23,15 @@
 ・リセットボタンを押すと、検索フォームの内容を削除し、データベースに登録されたすべてのレコードを一覧表示する。<br>
 ・削除ボタンを押すと、そのレコードの情報をすべて削除する<br>
 <br>
+#### 画面仕様<br>
+1.問い合わせフォーム<br>
+![Contact-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/177a2de5-763e-44a0-a8af-cbba88221627) <br>
+2.内容確認ページ<br>
+![Confirm-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/24584486-6490-4746-add1-9fdaaf7ef5db) <br>
+3.完了ページ<br>
+![Thanks-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/34156370-c1a9-4f09-b84b-fac057ca27be) <br>
+4.管理システムページ<br>
+![Manage-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/5138c116-3b2e-4e21-aefb-96e65ed9c21b) <br>
 ## 実行環境<br>
 HTML5<br>
 css3<br>
@@ -123,7 +131,3 @@ Contacts<br>
     <td></td>
     <td>レコード更新時刻</td>
   </tr>
-![Contact-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/177a2de5-763e-44a0-a8af-cbba88221627)
-![Confirm-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/24584486-6490-4746-add1-9fdaaf7ef5db)
-![Thanks-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/34156370-c1a9-4f09-b84b-fac057ca27be)
-![Manage-page](https://github.com/matsudayuki8140/advance-test/assets/129087994/5138c116-3b2e-4e21-aefb-96e65ed9c21b)
